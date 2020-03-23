@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "title": "test edit title",
+      "body": "tes edit11111"
+    },
+    {
+      "id": 1583313531500,
+      "title": "coba",
+      "body": "tes"
+    },
+    {
+      "id": 1583313687754,
+      "title": "tes2",
+      "body": "tes2"
+    },
+    {
+      "id": 1583399945562,
+      "title": "norma",
+      "body": "wer"
+    },
+    {
+      "id": 1583399994586,
+      "title": "sutarya",
+      "body": "dodi"
+    },
+    {
+      "id": 1583804010492,
+      "title": "json-server3",
+      "body": "typicode44"
+    },
+    {
+      "id": 1583804024156,
+      "title": "coba",
+      "body": "tes1111"
+    },
+    {
+      "id": 1583806024010,
+      "title": "tes edit title 1",
+      "body": "tes edit body 2"
+    },
+    {
+      "id": 1583806302776,
+      "title": "tes title 2",
+      "body": "tes body 2"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

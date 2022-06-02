@@ -39,7 +39,7 @@ class App extends Component {
 
   inputChange(e) {
     let newdataPost = { ...this.state.dataPost };
-    if(this.state.edit===false){
+    if (this.state.edit === false) {
       newdataPost['id'] = new Date().getTime();
     }
     newdataPost[e.target.name] = e.target.value;
@@ -65,7 +65,7 @@ class App extends Component {
   onSubmitForm() {
     if (this.state.edit === false) {
       axios
-        .post(`http://localhost:3002/posts`, this.state.dataPost).then(() => { 
+        .post(`http://localhost:3002/posts`, this.state.dataPost).then(() => {
           this.reloadData();
           this.clearData();
         });
@@ -109,7 +109,7 @@ class App extends Component {
     return (
       <div>
         <h1>Testing Konsumsi API</h1>
-        
+        <p>Aplikasi yang menggunakan React yang fungsinya mengkonsumsi Data API dari Server API</p>
         <input
           type="text"
           name='body'

@@ -108,7 +108,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>halo api</h1>
+        <h1>Testing Konsumsi API</h1>
+        
         <input
           type="text"
           name='body'
